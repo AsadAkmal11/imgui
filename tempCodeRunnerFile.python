@@ -1,0 +1,8 @@
+import pandas as pd
+import numpy as np
+url=r"c:\Users\USER\Downloads\annual-enterprise-survey-2023-financial-year-provisional.csv"
+dp=pd.read_csv(url)
+print(dp.head())
+print(dp)
+print("The shape of daataframe is",dp.shape) 
+print("The data types of the columns are",dp.dtypes)
